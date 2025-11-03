@@ -100,3 +100,16 @@ Repo: https://github.com/your-username/aws-devops-pipeline
 Live URL: (EKS LoadBalancer link)
 
 #DevOps #AWS #Jenkins #Docker #Kubernetes #EKS #ECR #Cloud #CI #CD #SRE #Flask
+---
+
+## 🚀 Deployment Steps
+1. Push code changes to GitHub.
+2. Jenkins pipeline automatically builds the Docker image and pushes it to Amazon ECR.
+3. Kubernetes manifests are applied to deploy the new version to AWS EKS.
+4. The application becomes accessible through a LoadBalancer public URL.
+
+---
+
+## 🧠 About This Project
+This project demonstrates a complete CI/CD pipeline integrating AWS, Jenkins, Docker, and Kubernetes (EKS).  
+It’s designed as a real-world DevOps portfolio project to show end-to-end automation, scalability, and cloud-native best practices.
